@@ -2,13 +2,53 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Man on The Moon: Free Your Mind</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Man on The Moon - Free Your Mind</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+  <div id="hero" class="section">
+    <canvas id="background"></canvas>
+    <div class="hero-content">
+      <h1 id="title">KiD CuDi</h1>
+      <h1 id="title">Free Your Mind</h1>
+      <h2 id="subtitle">Man on The Moon Experience</h2>
+      <div class="cta">
+        <button class="btn" onclick="scrollToSection('merch')">Explore Merch</button>
+        <button class="btn" onclick="scrollToSection('about')">Learn More</button>
+      </div>
+    </div>
+  </div>
 
+  <div id="merch" class="section">
+    <h2>Shop the Collection</h2>
+    <div class="products">
+      <div class="product">
+        <img src="vinyl.png" alt="Vinyl">
+        <p>Limited Edition Vinyl</p>
+      </div>
+      <div class="product">
+        <img src="shoes.png" alt="Space Sneakers">
+        <p>Space Sneakers</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="about" class="section">
+    <h2>About the Album</h2>
+    <p>
+      Dive into Kid Cudi’s reimagined dreamscape with themes of duality, space, and mental health.
+      Join the community to unlock hidden tracks and exclusive experiences.
+    </p>
+  </div>
+
+  <footer>
+    <p>© 2024 Kid Cudi - Man on The Moon</p>
+  </footer>
+
+  <script src="app.js"></script>
 </body>
 
 </html>
