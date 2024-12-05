@@ -105,7 +105,7 @@ body, html {
   }
   
   .product {
-    width: 150px;
+    width: 400px;
     cursor: pointer;
     transition: transform 0.3s, filter 0.3s;
   }
