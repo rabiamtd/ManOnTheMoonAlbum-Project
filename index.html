@@ -9,32 +9,62 @@
 </head>
 
 <body>
-  <div id="hero" class="section">
+  <div id="hero" class="landing">
     <canvas id="background"></canvas>
     <div class="hero-content">
       <h1 id="name">KiD CuDi 15th Anniversary</h1>
       <h1 id="title">Man on The Moon</h1>
       <h2 class="subtitle" id="subtitle">Free Your Mind</h2>
       <div class="cta">
-        <button class="btn" onclick="scrollToSection('cover')">Explore Merch</button>
-        <button class="btn" onclick="scrollToSection('about')">Learn More</button>
+
+        <button class="btn" onclick="scrollToSection('heading')">Learn More</button>
+        <button class="btn" onclick="scrollToSection('merch')">Explore Merch</button>
+        <!-- <button class="btn" onclick="scrollToSection('astro')">Meet Astro</button>
+        <button class="btn" onclick="scrollToSection('resources')">Resources</button> -->
       </div>
     </div>
   </div>
 
-  <div id="cover" class="section">
-    <div class="cover">
-      <object data="./assets/Cover.svg" width="450" height="450" alt="cover"> </object>
-      <h4>Man on The Moon: Free Your Mind</h4>
-      <p>KiD CuDi</p>
-    </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <div id="about" class="section">
+    <h2 id = 'heading' class="heading">About the Album</h2>
+      <div>
+        <p class="aboutKid">
+          Kid Cudi's Man on the Moon: The End of Day album was relaeased on September 15th of 2009. 
+          This album was the first installment of the Man on the Moon trilogy. On this album some of the 
+          most popular songs were Day n Nite, Make Her Say and Pursuit of Happiness. It was became certified 
+          four-times platinum by the RIAA and was ranked in the 500 greatest albums of all time.
+        </p>
+      </div>
+    <!-- <div class="img">
+      <img src="kidcudi.jpg" alt="Image of KiD CuDi" width="200" height="250">
+    </div> -->
   </div>
+  <h2 class="heading">The Album Remix</h2>
+    <div class="albums">
+      <div class="original">
+        <h4>The Original</h4>
+        <img src="Manonthemoon.jpg" alt="" width="200" height="200">
+      </div>
+      <div class="remix">
+        <h4>The Remix</h4>
+        <img src="newac.png" alt="" width="200" height="200">
+      </div>
+    </div>
+  
 
   <div id="merch" class="section">
     <h2>Shop the Collection</h2>
     <div class="products">
-      <div class="product">
-        <img src="./assets/vinyl.png" alt="Vinyl" width="200" height="200">
+      
+        <img src="vinyl.png" alt="Vinyl" alt="" width="300" height="200">
+
         <p>Limited Edition Vinyl</p>
       </div>
       <div class="product">
@@ -44,18 +74,66 @@
     </div>
   </div>
 
-  <div id="about" class="section">
-    <canvas id="background-about"></canvas>
-    <div class="about-content">
-      <h2>About the Album</h2>
-      <p>
-        The 15th Anniversary Edition of 'Man on The Moon: Free Your Mind' takes inspiration from Kid Cudi’s 'Day and Night,' exploring themes of duality and contrast. 
-        The album cover is designed in black and white to stand out, while vibrant colors are used throughout the campaign to create contrast. 
-        Fractals and space influence the visuals, reflecting the complexity of the mind and the vastness of the universe.
+  <div id="astro" class="section">
+      <h2 class="heading"> Meet Astro</h2>
+        <img src="astro.png" alt="" width="200" height="200">
+      <a href="https://www.instagram.com/freeyourmind_15/profilecard/?igsh=MXdsb2RtZHZ0aW5xdg==">Check out our Instagram!</a>
+      <p class="aboutAstro">Astro is an astronaut who's mission is to completely free his mind. In order to free his mind, he must get through each challenge. The 
+          challenges will relate one of the songs on the album so make sure that you're paying attention because these cahllenges could also help you free your
+          mind!
       </p>
-    </div>
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <div id="resources" class="section">
+    <h2>Mind Barriers</h2>
+    <h4> A big theme of the Album relates to mental health. Understanding how these barriers can affect your mind is the first step
+        to free your mind!
+    </h4>
+        <div class="resContent">
+          <div class="row1">
+            <div class="mh">
+              <h4>Greif</h4>
+              <p>Grief significantly impacts the brain by triggering the release of stress hormones, which can disrupt cognitive functions like memory, concentration, and decision-making, often leading to "brain fog".</p>
+            </div>
+            <div class="mh">
+              <h4>Depression</h4>
+              <p>Depression affects the brain by causing structural changes, particularly in areas related to memory, decision-making, and emotions, which can manifest as difficulties with concentration, memory, mood regulation, and overall cognitive function</p>
+            </div>
+            <div class="mh">
+              <h4>Anxiety</h4>
+              <p>Anxiety primarily affects the brain by hyperactivating the limbic system, particularly the amygdala, which is responsible for processing fear, leading to increased emotional responses, and potential disruptions in memory and cognitive function</p>
+            </div>
+          </div>
+          <div class="row2">
+            <div class="mh">
+              <h4>Loneliness</h4>
+              <p>Loneliness can significantly affect the brain in areas that control social cognition, emotion processing, and stress response, leading to changes in how people perceive social interactions</p>
+            </div>
+            <div class="mh">
+              <h4>Alcoholism</h4>
+              <p>Alcoholism significantly impacts the brain, leading to impairments in memory, decision-making, balance, coordination, and overall cognitive function</p>
+            </div>
+            <div class="mh">
+              <h4>Family Issues</h4>
+              <p>Family issues can significantly affect brain development by impacting the structure and function of areas related to stress regulation, emotion processing, and social interaction</p>
+            </div>
+          </div>
+        </div>
+        <h4>You dont have to break these barriers alone, for more help visit</h4>
+        <a href="https://www.nimh.nih.gov/health/find-help">National Institute of Mental Health</a>
+
   </div>
   
+
+  <br>
+  <br>
+  <br>
 
   <footer>
     <p>© 2024 Kid Cudi - Man on The Moon</p>
