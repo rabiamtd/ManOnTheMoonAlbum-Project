@@ -77,6 +77,8 @@ body, html {
     margin: 10px;
     cursor: pointer;
     transition: all 0.5s ease; 
+    border-radius: 5px;
+
   }
   
   .btn:hover {
@@ -97,12 +99,6 @@ body, html {
   .remix {
     padding-left: 10px;
   }
-
-  /* .astro{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-} */
 
   .aboutAstro{
     width: 50%;
@@ -166,11 +162,6 @@ body, html {
     width: 250px;
     padding: 30px;
   }
-
-
-
-
-
   
   /* Background animations */
   canvas {
@@ -212,7 +203,25 @@ body, html {
     font-size: 12px;
     padding: 12px;
   }
-  
+
+  a {
+    text-decoration: none;
+    background: transparent;
+    color: #fff;
+    border: 2px solid white;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease; 
+    border-radius: 5px;
+  }
+
+  a:hover {
+    background: linear-gradient(to right, #ff5926, #f21f69);
+    color: white;
+    border: 2px solid transparent; 
+  }
+    
   @keyframes glitch {
     0%, 20% { text-shadow: 2px 0 red, -2px 0 blue; }
     40% { text-shadow: -2px 0 red, 2px 0 blue; }
