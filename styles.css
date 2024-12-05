@@ -55,14 +55,24 @@ body, html {
     padding: 10px 20px;
     margin: 10px;
     cursor: pointer;
-    transition: 0.3s;
+    transition: all 0.5s ease; 
   }
   
   .btn:hover {
-    background: white;
-    color: black;
+    background: linear-gradient(to right, #ff5926, #f21f69);
+    color: white;
+    border: 2px solid transparent; 
   }
   
+  object {
+    transition: transform 0.3s ease-in-out;
+  }
+    
+  object:hover {
+    transform: scale(1.05); 
+    cursor: pointer;
+  }
+
   .products {
     display: flex;
     justify-content: space-around;
@@ -70,7 +80,7 @@ body, html {
   }
   
   .product:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
 
   h4, #subtitle {
@@ -90,7 +100,7 @@ body, html {
   }
   
   .product:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
   
   /* Background animations */
